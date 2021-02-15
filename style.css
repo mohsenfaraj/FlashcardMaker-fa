@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Sahel";
+  src:url("Sahel.ttf") format("tiff");
+}
+
+body {
+  text-align: center;
+  background: url(bg.png) #00695c;
+  padding: 0;
+  margin: 0;
+  font-family: "Sahel";
+}
+input,
+textarea,
+button {
+  font-family: "Sahel";
+  font-size: 16px;
+}
+
+#question-form {
+  display: none;
+  background: #ffffff99;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.discription {
+  background: #1e1e1ef2;
+  color: white;
+  padding: 10px;
+}
+
+#start-form {
+  margin-top: 20px;
+}
+
+#start-form * {
+  margin-top: 15px;
+}
+
+#start-form textarea {
+  border: none;
+  background: rgba(255, 255, 255, 0.87) none repeat scroll 0% 0%;
+  border-radius: 5px;
+  padding: 10px;
+}
+#startbtn {
+  padding: 15px;
+  background: #337ab7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#returntostart {
+  background: #f0ad4e;
+  border: #eea236;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+#questiontitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+#showanswer {
+  padding: 10px;
+  background: #337ab7;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  transition: all ease 0.5s;
+}
+#showanswer:disabled {
+  background: #616161;
+}
+.actionbar {
+  margin-top: 15px;
+}
+#trueanswerbtn {
+  background: #5cb85c;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+#falseanswerbtn {
+  background: #d9534f;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+#answers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#result-form {
+  display: none;
+}
+#result-form * {
+  margin: 15px;
+}
+#result-form div textarea {
+  background: #ffffff99;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.tanswerc label {
+  font-size: 18px;
+  background: #a4f99561;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.fanswerc label {
+  font-size: 18px;
+  background: #ff5a5a82;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 5px;
+}
+#gradep {
+  font-size: 18px;
+  color: #000;
+  direction: rtl;
+  font-weight: bold;
+}
